@@ -2,9 +2,11 @@
 
 Projet Ping Orange FISE2
 
+![Orange](Images/orange_icon.png)
+
 ## Description
 
-Le projet Ping Orange vise à développer une borne interactive innovante pour les magasins d'un opérateur téléphonique, comme Orange. Cette borne est conçue pour accueillir et assister les clients de manière intuitive et efficace grâce à un personnage virtuel sophistiqué, appelé métahuman.
+Le projet Ping Orange vise à développer une borne interactive innovante pour les magasins de l'opérateur téléphonique Orange. Cette borne est conçue pour accueillir et assister les clients de manière intuitive et efficace grâce à un personnage virtuel sophistiqué, appelé métahuman.
 
 ### Contexte et Objectif
 
@@ -34,11 +36,6 @@ L'objectif principal du projet est d'améliorer l'expérience client en magasin 
     - Un modèle d'IA basé sur PyTorch et Spacy est utilisé pour analyser les demandes des clients et les classer en catégories pertinentes.
     - Le modèle est déployé via une API Flask, qui peut être exécutée localement ou dans le cloud.
 
-### Schéma de l'Architecture
-
-Le schéma suivant illustre l'architecture globale du projet :
-
-![Project Outline](./Project_Outline.png)
 
 ## Structure du Projet
 
@@ -58,7 +55,9 @@ Le projet est organisé en trois répertoires principaux :
 Avant de lancer le projet, assurez-vous d'avoir les éléments suivants installés :
 
 - **Unreal Engine 5**
-- **Python 3.x**
+- **Docker**
+- **PixelStreaming Plugin**
+- **Python 3.11**
 - **Flask**
 - **PyTorch**
 - **Spacy avec le modèle français (`fr_core_news_sm`)**
@@ -68,17 +67,11 @@ Avant de lancer le projet, assurez-vous d'avoir les éléments suivants install�
 
 1. **Cloner le dépôt** :
     ```bash
-    git clone https://github.com/yourusername/Projet_Ping_Orange.git
+    git clone https://github.com/urrickane/Projet_Ping_Orange.git
     cd Projet_Ping_Orange
     ```
 
-2. **Configurer l'environnement Python** :
-    ```bash
-    pip install -r IA/requirements.txt
-    python -m spacy download fr_core_news_sm
-    ```
-
-3. **Lancer l'API Flask** :
+2. **Configurer l'environnement Python et Lancer l'API Flask** :
     - Pour exécuter la solution Cloud, naviguez dans le sous-dossier `IA/Cloud` et exécutez le script :
         ```bash
         cd IA/Cloud
@@ -98,7 +91,10 @@ Avant de lancer le projet, assurez-vous d'avoir les éléments suivants install�
 
 ## Contributeurs
 
-- [urrickane](https://github.com/urrickane)
+- Ewan Sauze
+- Jibril Otmani
+- Sophie Trouillot
+- Corentin Laval
 
 ## License
 
