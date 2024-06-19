@@ -7,6 +7,10 @@ Ce projet est réalisé dans le cadre de notre deuxième année de cycle ingéni
   <img src="Images/orange_icon.png" alt="Orange" style="width: 300px;">
 </div>
 
+<p align="center">
+  <img src="Images/orange_icon.png" alt="Orange" style="width: 300px;">
+</p>
+
 
 ## Description
 
