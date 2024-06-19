@@ -2,7 +2,7 @@
 
 Projet Ping Orange FISE2
 
-<img src="Images/orange_icon.png" alt="Orange" style="width: 300px; float: left; margin-right: 10px;">
+<img src="Images/orange_icon.png" alt="Orange" style="width: 300px; float: left; margin-right: 50px;">
 
 
 ## Description
