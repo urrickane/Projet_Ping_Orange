@@ -101,4 +101,4 @@ Avant de lancer le projet, assurez-vous d'avoir les éléments suivants install�
 
 ## License
 
-Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+Ce projet est sous licence libre.
