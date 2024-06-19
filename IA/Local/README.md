@@ -4,7 +4,7 @@
 
 ## Description
 
-Ce dossier contient la partie Intelligence Artificielle de l'application. Elle n'est composée que d'un script à lancer afin de tirer et de lancer l'image Docker contenant l'IA. Cette dernière est disponible sur le cloud Microsoft Azure.
+Ce dossier contient la partie Intelligence Artificielle de l'application. Elle n'est composée que d'un script à lancer afin de démarrer le serveur en local sur localhost:5000/.
 Il n'est conseillé d'utiliser cette version qu'en cas d'erreurs de politiques CORS sur un navigateur, de pannes du service Azure de Microsoft ou dans l'optique de modifier l'IA de manière à la perfectionner.
 
 ## Installation et utilisation
