@@ -9,16 +9,16 @@ Ce projet est réalisé dans le cadre de notre deuxième année de cycle ingéni
 
 ## Description
 
-Le projet Ping Orange vise à développer une borne interactive innovante pour les magasins de l'opérateur téléphonique Orange. Cette borne est conçue pour accueillir et assister les clients de manière intuitive et efficace grâce à un personnage virtuel sophistiqué, appelé métahuman.
+Le projet Ping Orange vise à développer une borne interactive innovante pour les magasins de l'opérateur téléphonique Orange. Cette borne est conçue pour accueillir et assister les clients de manière intuitive et efficace grâce à un personnage virtuel sophistiqué, appelé Metahuman.
 
 ### Contexte et Objectif
 
-L'objectif principal du projet est d'améliorer l'expérience client en magasin en intégrant des technologies avancées de modélisation 3D et d'intelligence artificielle (IA). La borne interactive permet aux clients d'interagir avec un métahuman, un avatar réaliste créé avec Metahuman Creator et animé dans Unreal Engine 5, proposés par Epic Games. Ce métahuman a la capacité de comprendre les demandes des clients et de répondre de manière appropriée, offrant ainsi un service personnalisé et engageant.
+L'objectif principal du projet est d'améliorer l'expérience client en magasin en intégrant des technologies avancées de modélisation 3D et d'intelligence artificielle (IA). La borne interactive permet aux clients d'interagir avec un Metahuman, un avatar réaliste créé avec Metahuman Creator et animé dans Unreal Engine 5, proposés par Epic Games. Ce métahuman a la capacité de comprendre les demandes des clients et de répondre de manière appropriée, offrant ainsi un service personnalisé et engageant.
 
 ### Fonctionnalités Clés
 
 1. **Accueil des Clients** :
-    - Le métahuman accueille les clients dès leur arrivée à la borne, créant une première impression chaleureuse et professionnelle.
+    - Le Metahuman accueille les clients dès leur arrivée à la borne, créant une première impression chaleureuse et professionnelle.
     - Grâce à une interface conviviale, les clients peuvent poser des questions ou formuler des demandes spécifiques en utilisant des commandes vocales ou textuelles.
 
 2. **Compréhension des Demandes** :
@@ -31,11 +31,11 @@ L'objectif principal du projet est d'améliorer l'expérience client en magasin 
 
 ### Technologies Utilisées
 - **Metahuman Creator** :
-    - Utilisé pour créer notre personnage Viviane qui est un métahuman extrêmement réaliste. Metahuman Creator permet de concevoir des avatars avec des détails très fins, ce qui est essentiel pour offrir une interaction réaliste et engageante aux clients.
+    - Utilisé pour créer notre personnage Viviane qui est un Metahuman extrêmement réaliste. Metahuman Creator permet de concevoir des avatars avec des détails très fins, ce qui est essentiel pour offrir une interaction réaliste et engageante aux clients.
 - **Nvidia Omniverse** :
-    - Utilisé pour intégrer les mouvements de syntaxes labiales au métahuman, permettant des animations faciales plus naturelles et synchronisées avec le discours. Omniverse améliore la fidélité et le réalisme des interactions vocales en assurant que les mouvements des lèvres du métahuman correspondent précisément aux sons produits lors des scénarios.
+    - Utilisé pour intégrer les mouvements de syntaxes labiales au métahuman, permettant des animations faciales plus naturelles et synchronisées avec le discours. Omniverse améliore la fidélité et le réalisme des interactions vocales en assurant que les mouvements des lèvres du Metahuman correspondent précisément aux sons produits lors des scénarios.
 - **Unreal Engine 5** :
-    - Utilisé pour intégrer le métahuman dans la scène et gérer les scénarios d'interaction. Unreal Engine permet de créer des personnages et des environnements 3D réalistes et interactifs.
+    - Utilisé pour intégrer le Metahuman dans la scène et gérer les scénarios d'interaction. Unreal Engine permet de créer des personnages et des environnements 3D réalistes et interactifs.
 - **Pixel Streaming** :
     - Permet de diffuser le contenu Unreal Engine directement dans un navigateur web. Cette technologie utilise le WebRTC pour une communication en temps réel et une interaction fluide.
 - **Intelligence Artificielle (IA)** :
