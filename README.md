@@ -31,11 +31,11 @@ L'objectif principal du projet est d'améliorer l'expérience client en magasin 
 
 ### Technologies Utilisées
 - **Metahuman Creator** :
-    - Utilisé pour créer notre personnage Viviane qui est un métahuman extrêmement réalistes. Metahuman Creator permet de concevoir des avatars avec des détails très fins, ce qui est essentiel pour offrir une interaction réaliste et engageante aux clients.
+    - Utilisé pour créer notre personnage Viviane qui est un métahuman extrêmement réaliste. Metahuman Creator permet de concevoir des avatars avec des détails très fins, ce qui est essentiel pour offrir une interaction réaliste et engageante aux clients.
 - **Nvidia Omniverse** :
     - Utilisé pour intégrer les mouvements de syntaxes labiales au métahuman, permettant des animations faciales plus naturelles et synchronisées avec le discours. Omniverse améliore la fidélité et le réalisme des interactions vocales en assurant que les mouvements des lèvres du métahuman correspondent précisément aux sons produits lors des scénarios.
 - **Unreal Engine 5** :
-    - Utilisé pour intégrer le métahuman et gérer scénarios d'interaction. Unreal Engine permet de créer des personnages et des environnements 3D réalistes et interactifs.
+    - Utilisé pour intégrer le métahuman dans la scène et gérer les scénarios d'interaction. Unreal Engine permet de créer des personnages et des environnements 3D réalistes et interactifs.
 - **Pixel Streaming** :
     - Permet de diffuser le contenu Unreal Engine directement dans un navigateur web. Cette technologie utilise le WebRTC pour une communication en temps réel et une interaction fluide.
 - **Intelligence Artificielle (IA)** :
