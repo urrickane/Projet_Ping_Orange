@@ -4,26 +4,54 @@ Projet Ping Orange FISE2
 
 ## Description
 
-Le projet Ping Orange vise à créer un métahuman pour une borne interactive dans un magasin d'un opérateur téléphonique comme Orange. L'idée est que cette borne puisse accueillir les clients et comprendre leurs demandes grâce à une intelligence artificielle. Le métahuman, conçu dans Unreal Engine 5, sera affiché dans un navigateur web via le pixel streaming.
+Le projet Ping Orange vise à développer une borne interactive innovante pour les magasins d'un opérateur téléphonique, comme Orange. Cette borne est conçue pour accueillir et assister les clients de manière intuitive et efficace grâce à un personnage virtuel sophistiqué, appelé métahuman.
 
-Le système fonctionne de la manière suivante :
-1. **Interaction avec le client** : Le client interagit avec la borne en formulant une demande vocale ou textuelle.
-2. **Traitement de la demande** : La demande est envoyée à une API Flask qui utilise un modèle d'IA pour catégoriser la demande en différentes catégories (par exemple, "Achat", "Rendez-vous", "Autres").
-3. **Exécution du scénario** : En fonction de la catégorie de la demande, un scénario spécifique est déclenché dans Unreal Engine avec le métahuman qui guide le client.
+### Contexte et Objectif
 
-## Architecture du Projet
+L'objectif principal du projet est d'améliorer l'expérience client en magasin en intégrant des technologies avancées de modélisation 3D et d'intelligence artificielle (IA). La borne interactive permet aux clients d'interagir avec un métahuman, un avatar réaliste et animé créé dans Unreal Engine 5. Ce métahuman a la capacité de comprendre les demandes des clients et de répondre de manière appropriée, offrant ainsi un service personnalisé et engageant.
 
-Le projet est organisé en trois répertoires principaux :
+### Fonctionnalités Clés
 
-- **UnrealEngine** : Contient le projet Unreal Engine 5 avec le métahuman.
-- **IA** : Contient le modèle d'IA et l'API Flask pour traiter et catégoriser les demandes des clients.
-    - **Cloud** : Contient la solution pour la partie Cloud, incluant une image Docker à télécharger.
-    - **Local** : Contient la solution locale.
-- **PixelStreaming** : Contient les scripts et configurations nécessaires pour lancer le pixel streaming.
+1. **Accueil des Clients** :
+    - Le métahuman accueille les clients dès leur arrivée à la borne, créant une première impression chaleureuse et professionnelle.
+    - Grâce à une interface conviviale, les clients peuvent poser des questions ou formuler des demandes spécifiques en utilisant des commandes vocales ou textuelles.
+
+2. **Compréhension des Demandes** :
+    - Une intelligence artificielle sophistiquée est intégrée pour analyser et comprendre les demandes des clients.
+    - Les demandes sont classifiées en différentes catégories telles que "Achat", "Rendez-vous" et "Autres" à l'aide d'un modèle de traitement du langage naturel (NLP).
+
+3. **Exécution de Scénarios** :
+    - En fonction de la classification des demandes, différents scénarios sont exécutés dans Unreal Engine 5.
+    - Le métahuman guide les clients à travers des processus spécifiques, par exemple, prendre un rendez-vous ou fournir des informations sur les produits.
+
+### Technologies Utilisées
+
+- **Unreal Engine 5** :
+    - Utilisé pour créer le métahuman et les scénarios d'interaction. Unreal Engine permet de créer des personnages et des environnements 3D réalistes et interactifs.
+- **Pixel Streaming** :
+    - Permet de diffuser le contenu Unreal Engine directement dans un navigateur web. Cette technologie utilise le WebRTC pour une communication en temps réel et une interaction fluide.
+- **Intelligence Artificielle (IA)** :
+    - Un modèle d'IA basé sur PyTorch et Spacy est utilisé pour analyser les demandes des clients et les classer en catégories pertinentes.
+    - Le modèle est déployé via une API Flask, qui peut être exécutée localement ou dans le cloud.
 
 ### Schéma de l'Architecture
 
+Le schéma suivant illustre l'architecture globale du projet :
+
 ![Project Outline](./Project_Outline.png)
+
+## Structure du Projet
+
+Le projet est organisé en trois répertoires principaux :
+
+- **UnrealEngine** :
+    - Ce répertoire contient le projet Unreal Engine 5 avec le métahuman et les scénarios d'interaction.
+- **IA** :
+    - Contient le modèle d'IA et l'API Flask pour traiter les demandes des clients.
+    - **Cloud** : Contient une solution basée sur le cloud avec une image Docker à télécharger et exécuter.
+    - **Local** : Contient une solution locale pour exécuter l'IA sur une machine locale.
+- **PixelStreaming** :
+    - Contient les scripts nécessaires pour configurer et lancer le pixel streaming, permettant de diffuser le contenu Unreal Engine dans un navigateur web.
 
 ## Prérequis
 
@@ -68,16 +96,6 @@ Avant de lancer le projet, assurez-vous d'avoir les éléments suivants install�
 5. **Démarrer le Pixel Streaming** :
     - Suivez les instructions dans le répertoire `PixelStreaming` pour démarrer le pixel streaming.
 
-## Contenu des Répertoires
-
-- **UnrealEngine** : Ce répertoire contient le projet Unreal Engine 5. Il inclut tous les fichiers nécessaires pour le métahuman et les scénarios d'interaction.
-  
-- **IA** : Ce répertoire contient deux sous-dossiers :
-    - **Cloud** : Contient une solution basée sur le cloud avec une image Docker préconfigurée. Vous pouvez exécuter `start_cloud_server.sh` pour démarrer le serveur sur le cloud.
-    - **Local** : Contient une solution locale pour l'IA. Vous pouvez exécuter `start_local_server.sh` pour démarrer le serveur localement.
-
-- **PixelStreaming** : Ce répertoire contient les scripts nécessaires pour configurer et lancer le pixel streaming. Cela permet de diffuser le contenu d'Unreal Engine 5 dans un navigateur web.
-
 ## Contributeurs
 
 - [urrickane](https://github.com/urrickane)
@@ -85,4 +103,3 @@ Avant de lancer le projet, assurez-vous d'avoir les éléments suivants install�
 ## License
 
 Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
