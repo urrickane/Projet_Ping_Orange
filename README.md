@@ -2,7 +2,7 @@
 
 Ce projet est réalisé dans le cadre de notre deuxième année de cycle ingénieur à Télécom Saint-Étienne (FISE2). Il s'inscrit dans le module Projet PING, qui met en lien les étudiants avec les entreprises pendant une période de 4 semaines environ. L'objectif est de permettre aux étudiants de travailler sur des projets réels proposés par des entreprises partenaires, afin de développer leurs compétences techniques et professionnelles dans un environnement concret.
 
-<img src="Images/orange_icon.png" alt="Orange" style="width: 300px; float: left; margin-right: 50px;">
+<img src="Images/orange_icon.png" alt="Orange" style="width: 300px; float: center; margin-right: 50px;">
 
 
 ## Description
