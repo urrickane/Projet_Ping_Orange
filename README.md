@@ -13,7 +13,7 @@ Le projet Ping Orange vise à développer une borne interactive innovante pour l
 
 ### Contexte et Objectif
 
-L'objectif principal du projet est d'améliorer l'expérience client en magasin en intégrant des technologies avancées de modélisation 3D et d'intelligence artificielle (IA). La borne interactive permet aux clients d'interagir avec un métahuman, un avatar réaliste et animé créé dans Unreal Engine 5. Ce métahuman a la capacité de comprendre les demandes des clients et de répondre de manière appropriée, offrant ainsi un service personnalisé et engageant.
+L'objectif principal du projet est d'améliorer l'expérience client en magasin en intégrant des technologies avancées de modélisation 3D et d'intelligence artificielle (IA). La borne interactive permet aux clients d'interagir avec un métahuman, un avatar réaliste créé avec Metahuman Creator et animé dans Unreal Engine 5, proposés par Epic Games. Ce métahuman a la capacité de comprendre les demandes des clients et de répondre de manière appropriée, offrant ainsi un service personnalisé et engageant.
 
 ### Fonctionnalités Clés
 
@@ -30,9 +30,12 @@ L'objectif principal du projet est d'améliorer l'expérience client en magasin 
     - Le métahuman guide les clients à travers des processus spécifiques, par exemple, prendre un rendez-vous ou fournir des informations sur les produits.
 
 ### Technologies Utilisées
-
+- **Metahuman Creator** :
+    - Utilisé pour créer notre personnage Viviane qui est un métahuman extrêmement réalistes. Metahuman Creator permet de concevoir des avatars avec des détails très fins, ce qui est essentiel pour offrir une interaction réaliste et engageante aux clients.
+- **Nvidia Omniverse** :
+    - Utilisé pour intégrer les mouvements de syntaxes labiales au métahuman, permettant des animations faciales plus naturelles et synchronisées avec le discours. Omniverse améliore la fidélité et le réalisme des interactions vocales en assurant que les mouvements des lèvres du métahuman correspondent précisément aux sons produits lors des scénarios.
 - **Unreal Engine 5** :
-    - Utilisé pour créer le métahuman et les scénarios d'interaction. Unreal Engine permet de créer des personnages et des environnements 3D réalistes et interactifs.
+    - Utilisé pour intégrer le métahuman et gérer scénarios d'interaction. Unreal Engine permet de créer des personnages et des environnements 3D réalistes et interactifs.
 - **Pixel Streaming** :
     - Permet de diffuser le contenu Unreal Engine directement dans un navigateur web. Cette technologie utilise le WebRTC pour une communication en temps réel et une interaction fluide.
 - **Intelligence Artificielle (IA)** :
@@ -57,14 +60,14 @@ Le projet est organisé en trois répertoires principaux :
 
 Avant de lancer le projet, assurez-vous d'avoir les éléments suivants installés :
 
-- **Unreal Engine 5**
+- **Unreal Engine 5.3**
 - **Docker**
 - **PixelStreaming Plugin**
 - **Python 3.11**
 - **Flask**
 - **PyTorch**
 - **Spacy avec le modèle français (`fr_core_news_sm`)**
-- **Navigateur compatible WebRTC**
+- **Navigateur web compatible WebRTC**
 
 ## Installation
 
