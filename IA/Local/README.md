@@ -50,3 +50,19 @@ Ce fichier contient le modèle de machine learning pré-entraîné. Il est utili
 ### vocab.pkl
 
 Ce fichier contient le vocabulaire utilisé par le modèle de machine learning pour tokeniser les phrases d'entrée. Il est chargé au démarrage de l'API Flask pour assurer une tokenisation cohérente avec celle utilisée lors de l'entraînement du modèle.
+
+### datav3.csv
+
+Ce fichier contient le jeu de données utilisé pour entraîner le modèle de machine learning. Il peut être modifié pour ajouter de nouvelles données ou de nouvelles catégories afin d'améliorer ou d'étendre les capacités du modèle.
+
+### train_model.py
+
+Ce script Python permet d'entraîner le modèle de machine learning. Il utilise les données présentes dans `datav3.csv` et génère un nouveau fichier `best_model.pt` et `vocab.pkl`. Il est utile pour ajuster les paramètres de l'IA ou pour inclure de nouvelles données d'entraînement.
+
+### Dockerfile
+
+Ce fichier est utilisé pour créer une image Docker du serveur Flask avec l'IA intégrée. Il définit l'environnement d'exécution et les dépendances nécessaires pour faire tourner l'application dans un conteneur Docker.
+
+---
+
+Tous ces fichiers et scripts sont mis à disposition pour permettre à l'utilisateur de modifier, personnaliser ou étendre ces travaux, afin de les adapter précisément à ses besoins spécifiques et d'améliorer les performances de l'IA selon ses propres critères et exigences.
