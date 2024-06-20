@@ -31,7 +31,7 @@ L'objectif principal du projet est d'améliorer l'expérience client en magasin 
 
 ### Technologies Utilisées
 - **Metahuman Creator** :
-    - Utilisé pour créer notre personnage Viviane qui est un Metahuman extrêmement réaliste. Metahuman Creator permet de concevoir des avatars avec des détails très fins, ce qui est essentiel pour offrir une interaction réaliste et engageante aux clients.
+    - Utilisé pour créer notre personnage Hadley qui est un Metahuman extrêmement réaliste. Metahuman Creator permet de concevoir des avatars avec des détails très fins, ce qui est essentiel pour offrir une interaction réaliste et engageante aux clients.
 - **Nvidia Omniverse** :
     - Utilisé pour intégrer les mouvements de syntaxes labiales au métahuman, permettant des animations faciales plus naturelles et synchronisées avec le discours. Omniverse améliore la fidélité et le réalisme des interactions vocales en assurant que les mouvements des lèvres du Metahuman correspondent précisément aux sons produits lors des scénarios.
 - **Unreal Engine 5** :
@@ -61,6 +61,8 @@ Le projet est organisé en trois répertoires principaux :
 Avant de lancer le projet, assurez-vous d'avoir les éléments suivants installés :
 
 - **Unreal Engine 5.3**
+- **Node.js**
+- **VisualStudio2020**
 - **Docker**
 - **PixelStreaming Plugin**
 - **Python 3.11**
