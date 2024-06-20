@@ -46,7 +46,7 @@ Voici un aperçu de la structure du projet :
 Content/
 ├── Camera/             		# Déclaration de la caméra
 ├── MetaHumans/          
-│   └── Vivian/ 						# Dossier relatif au MetaHuman
+│   └── Vivian/ 						# Dossier relatif au MetaHuman Hadley
 ├── Mixamo 
 │   └── Bonjour/						# Dossier d'animations séquence Bonjour
 │   └── idle/								# Dossier d'animations séquence Idle
