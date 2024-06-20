@@ -3,13 +3,13 @@
 ## Table des matières
 
 1. [Introduction](#introduction)
-2. [Prérequis](#prerequis)
+2. [Prérequis](#prérequis)
 3. [Installation et Configuration d'Unreal Engine](#installation-et-configuration-dunreal-engine)
 4. [Configuration du Projet](#configuration-du-projet)
-5. [Package et Déploiement](#package-et-deploiement)
-6. [Premier Démarrage du Stream](#premier-demarrage-du-stream)
-7. [Démarrage Quotidien du Stream](#demarrage-quotidien-du-stream)
-8. [Dépannage et Ressources Supplémentaires](#depannage-et-ressources-supplementaires)
+5. [Package et Déploiement](#package-et-déploiement)
+6. [Premier Démarrage du Stream](#premier-démarrage-du-stream)
+7. [Démarrage Quotidien du Stream](#démarrage-quotidien-du-stream)
+8. [Dépannage et Ressources Supplémentaires](#dépannage-et-ressources-supplémentaires)
 
 
 ## Introduction
