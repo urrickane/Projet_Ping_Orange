@@ -65,4 +65,6 @@ Ce fichier est utilisé pour créer une image Docker du serveur Flask avec l'IA 
 
 ---
 
+## Remarque
+
 Tous ces fichiers et scripts sont mis à disposition pour permettre à l'utilisateur de modifier, personnaliser ou étendre ces travaux, afin de les adapter précisément à ses besoins spécifiques et d'améliorer les performances de l'IA selon ses propres critères et exigences.
