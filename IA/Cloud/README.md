@@ -5,7 +5,7 @@
 ## Description
 
 Ce dossier contient la partie Intelligence Artificielle de l'application. Elle n'est composée que d'un script à lancer afin de tirer et de lancer l'image Docker contenant l'IA. Cette dernière est disponible sur le cloud Microsoft Azure.
-En cas d'erreurs de politiques CORS lors de l'exécution de requêtes sur un navigateur ou de problèmes avec le service Azure de Microsoft, nous conseillons d'utiliser plutôt l'IA en local dans le dossier "Local" situé dans /IA/Local.
+En cas d'erreurs de politiques CORS lors de l'exécution de requêtes sur un navigateur ou de problèmes avec le service Azure de Microsoft, nous vous conseillons d'utiliser plutôt l'IA en local dans le dossier "Local" situé dans /IA/Local.
 
 ## Installation et utilisation
 
@@ -15,8 +15,19 @@ En cas d'erreurs de politiques CORS lors de l'exécution de requêtes sur un nav
 
 ### Instructions
 
-- Lancer le logiciel Docker Desktop
-- Lancer le script start_cloud_server.sh
+1. Lancer le logiciel Docker Desktop
+
+2. Naviguer dans le répertoire du dépôt GitHub.
+
+```bash
+cd Projet_Ping_Orange/IA/Cloud
+```
+
+3. Lancer le script pour démarrer le serveur local.
+
+```bash
+bash start_cloud_server.sh
+```
 
 ### Remarques
 
