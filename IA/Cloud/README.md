@@ -5,7 +5,7 @@
 ## Description
 
 Ce dossier contient la partie Intelligence Artificielle de l'application. Elle n'est composée que d'un script à lancer afin de tirer et de lancer l'image Docker contenant l'IA. Cette dernière est disponible sur le cloud Microsoft Azure.
-En cas d'erreurs de politiques CORS lors de l'exécution de requêtes sur un navigateur ou de problèmes avec le service Azure de Microsoft, nous vous conseillons d'utiliser plutôt l'IA en local dans le dossier "Local" situé dans /IA/Local.
+En cas d'erreurs de politiques CORS lors de l'exécution de requêtes sur un navigateur ou de problèmes avec le service Azure de Microsoft, nous vous conseillons d'utiliser plutôt la solution du dossier "Local" situé dans /IA/Local.
 
 ## Installation et utilisation
 
