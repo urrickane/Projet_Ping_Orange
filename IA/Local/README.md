@@ -18,7 +18,7 @@ Il n'est conseillé d'utiliser cette version qu'en cas d'erreurs de politiques C
 1. Naviguer dans le répertoire du dépôt GitHub.
 
 ```bash
-cd <votre-repo>/IA/Local
+cd Projet_Ping_Orange/IA/Local
 ```
 
 2. Lancer le script pour démarrer le serveur local.
@@ -37,7 +37,7 @@ Nous conseillons d'attendre quelques instants le temps que le serveur démarre c
 
 ### start_local_server.sh
 
-Le script bash pour démarrer le serveur local Flask. Il crée et active un environnement virtuel, installe les dépendances répertoriées dans `requirements.txt`, télécharge le modèle de langue spaCy pour le français, puis lance `app.py`.
+Le script bash à lancer pour démarrer le serveur local Flask. Il crée et active un environnement virtuel, installe les dépendances répertoriées dans `requirements.txt`, télécharge le modèle de langue spaCy pour le français, puis lance `app.py`.
 
 ### app.py
 
