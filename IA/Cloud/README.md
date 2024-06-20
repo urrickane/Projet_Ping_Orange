@@ -26,7 +26,7 @@ cd Projet_Ping_Orange/IA/Cloud
 3. Lancer le script pour démarrer le serveur local.
 
 ```bash
-bash start_cloud_server.sh
+./start_cloud_server.sh
 ```
 
 ### Remarques
