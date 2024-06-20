@@ -11,7 +11,7 @@ Il n'est conseillé d'utiliser cette version qu'en cas d'erreurs de politiques C
 
 ### Prérequis
 
-[Python 3.11](https://www.python.org/downloads/release/python-3110/)
+[Python 3.8](https://www.python.org/downloads/release/python-380/)
 
 ### Instructions
 
@@ -24,7 +24,7 @@ cd Projet_Ping_Orange/IA/Local
 2. Lancer le script pour démarrer le serveur local.
 
 ```bash
-bash start_local_server.sh
+./start_local_server.sh
 ```
 
 ### Remarques
@@ -58,7 +58,7 @@ Ce fichier contient le jeu de données utilisé pour entraîner le modèle de ma
 ### train_model.py
 
 Ce script Python permet d'entraîner le modèle de machine learning. Il utilise les données présentes dans `datav3.csv` et génère un nouveau fichier `best_model.pt` et `vocab.pkl`. Il est utile pour ajuster les paramètres de l'IA ou pour inclure de nouvelles données d'entraînement. 
-*Note : Si vous utilisez Google Colab, il faut d'abord exécuter les commandes suivantes dans une cellule.* 
+*Note : Si vous utilisez Google Colab, il faut d'abord exécuter les commandes suivantes dans une cellule :* 
 
 ```bash
 !pip install spacy
