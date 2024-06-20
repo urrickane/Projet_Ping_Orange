@@ -2,8 +2,6 @@
 
 # Unreal Engine
 
-Bienvenue dans ce dépôt de projet Unreal Engine. Ce document sert de guide pour comprendre et utiliser ce projet basé sur le moteur Unreal Engine.
-
 ## Table des matières
 
 1. [Introduction](#introduction)
