@@ -1,10 +1,23 @@
 # Démarrage avec le Pixel Streaming dans Unreal Engine
 
+## Table des matières
+
+1. [Introduction](#introduction)
+2. [Prérequis](#prerequis)
+3. [Installation et Configuration d'Unreal Engine](#installation-et-configuration-dunreal-engine)
+4. [Configuration du Projet](#configuration-du-projet)
+5. [Package et Déploiement](#package-et-deploiement)
+6. [Premier Démarrage du Stream](#premier-demarrage-du-stream)
+7. [Démarrage Quotidien du Stream](#demarrage-quotidien-du-stream)
+8. [Dépannage et Ressources Supplémentaires](#depannage-et-ressources-supplementaires)
+
+
 ## Introduction
 
 Le Pixel Streaming permet de diffuser des images haute qualité rendues par Unreal Engine depuis un serveur puissant vers des appareils distants en temps réel.
 
 Dans ce document, vous trouverez un guide pour l’installation et la mise en place de Pixel Streaming, ainsi qu’une description détaillée du premier lancement de stream. De plus, vous découvrirez un script facilitant les futurs démarrages du flux.
+
 
 ## Prérequis
 
