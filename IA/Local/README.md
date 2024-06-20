@@ -57,7 +57,12 @@ Ce fichier contient le jeu de données utilisé pour entraîner le modèle de ma
 
 ### train_model.py
 
-Ce script Python permet d'entraîner le modèle de machine learning. Il utilise les données présentes dans `datav3.csv` et génère un nouveau fichier `best_model.pt` et `vocab.pkl`. Il est utile pour ajuster les paramètres de l'IA ou pour inclure de nouvelles données d'entraînement.
+Ce script Python permet d'entraîner le modèle de machine learning. Il utilise les données présentes dans `datav3.csv` et génère un nouveau fichier `best_model.pt` et `vocab.pkl`. Il est utile pour ajuster les paramètres de l'IA ou pour inclure de nouvelles données d'entraînement. Note : Si vous utilisez Google Colab, il faut d'abord exécuter les commandes suivantes dans une cellule. 
+
+```bash
+!pip install spacy
+!python -m spacy download fr_core_news_sm
+```
 
 ### Dockerfile
 
